@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>🐱 | kotanoff | 🐱</title>
+    
+    <meta property="og:title" content="kotanoff > Website">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mudachyo.github.io/files/">
+    <meta name="description" content="kotanoff > Web developer, portfolio and contact website">
+    
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="ui active dimmer" id="load_dimmer">
+        <div class="ui big text loader">Loading...</div>
+    </div>
+    <div class="centered" id="main_block">
+        <div class="profile_block">
+            <div class="ui grid">
+                <div class="seven wide column">
+                    <div class="ui circular image" id="avatar">
+                        <a href="https://vk.com/kawai_ebal_mat"><img src="#" alt="kotanoff photo from VK.COM"></a>
+                    </div>
+                </div>
+                <div class="nine wide column">
+                    <div class="ui text-center info">
+                        <h1 id="title">🐱 kotanoff 🐱</h1>
+                        <i class="marker icon"></i> Russia, Moscow (GMT+3)
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="links">
+                <a title="VK" target="_blank" href="https://vk.com/kotanoffff"><i class="big inverted grey vk icon"></i></a>
+                <a title="Twitter" target="_blank" href="https://twitter.com/dkotanoff"><i class="big inverted grey twitter icon"></i></a>
+                <a title="Telegrarm" target="_blank" href="https://t.me/mudachyo"><i class="big inverted grey telegram icon"></i></a>
+                <a title="GitHub" target="_blank" href="https://github.com/mudachyo"><i class="big inverted grey github icon"></i></a>
+            </div>
+            <hr>
+            <div class="text-content">
+                <div class="ui grid">
+                    <div class="eight wide column">
+                        <b>Изучено:</b>
+                        <ul>
+                            <li>PHP</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="eight wide column">
+                        <b>Изучаю:</b>
+                        <ul>
+                            <li>JS (в процессе)</li>
+                            <li>C++ (в процессе)</li>
+                        </ul>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td><b>Онлайн время (~): </b></td>
+                        <td>&nbsp;</td>
+                        <td>07:00-17:00 (GMT+03:00)</td>
+                    </tr>
+                </table>
+                <button onclick="return openFilesModal();" class="filesB ui fluid primary button">
+                    Просмотреть файлы
+                </button>
+            </div>
+            <hr>
+            <div class="text-content">
+                <br><b>E-Mail:</b> <a id="email" href="mailto:kotanoff@raikage.ru">kotanoff@raikage.ru</a>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div id="video-hide"></div>
+    <video loop autoplay muted id="video">
+        <source type="video/mp4" src="/sGet.php?url=http://s2.storage.akamai.coub.com/get/b171/p/coub/simple/cw_file/91d25851fc3/a9b1e7760f227e4d18189/muted_mp4_big_size_1496410340_muted_big.mp4">
+    </video>
+    <audio loop autoplay muted id="music">
+        <source type="audio/mpeg" src="/sGet.php?url=http://s3.storage.akamai.coub.com/get/b177/p/coub/simple/cw_looped_audio/a2d34fff5f4/0552b5454f0a5ec4d1a31/high_1496410366_high.mp3">
+    </audio>
+
+    <div class="ui modal" id="files_modal">
+        <i class="close icon"></i>
+        <div class="header">
+            Файлы
+        </div>
+        <div class="image content">
+            <div class="description">
+                <div class="ui list">
+                                                <div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/BCUninstaller_4.1_portable.zip">Bulk Crap Uninstaller</a>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/spacesniffer_1_3_0_2.zip">SpaceSniffer</a>
+                                </div>
+                            </div>
+													<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/processhacker-2.39-bin.zip">Process Hacker</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/avz4.zip">AVZ</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/Autoruns.zip">Autoruns</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/PrivaZer.exe">PrivaZer</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/ccsetup538.exe">CCleaner</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="http://www.kaspersky.ru/free-antivirus">Free Kaspersky</a>
+                                </div>
+                            </div>
+							<div class="item">
+                                <i class="file icon"></i>
+                                <div class="content">
+                                    <a download class="header" href="files/sampik.rar">Сампик</a>
+                                </div>
+                            </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui positive right labeled icon button">
+                Закрыть :3
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/core.js"></script>
+</body>
+</html>
