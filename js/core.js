@@ -71,7 +71,7 @@ window.onload = function () {
     $(avatar).dimmer('show');
 
     $.ajax({
-        url: "https://api.vk.com/method/users.get?user_ids=426055107&fields=photo_max",
+        url: "https://api.vk.com/method/users.get?user_ids=480161329&fields=photo_max",
         crossOrigin: true,
         dataType: 'jsonp',
 
