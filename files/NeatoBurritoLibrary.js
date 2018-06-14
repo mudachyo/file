@@ -620,9 +620,9 @@ NeatoLib.Settings.pushChangelogElements = function(plugin) {
     element.style.backgroundColor = "rgba(0,0,0,0.2)";
     element.style.borderRadius = "5px";
 
-    element.insertAdjacentHTML("beforeend", `<div style="text-align:center;color:white;">Other</div>`);
+    element.insertAdjacentHTML("beforeend", `<div style="text-align:center;color:white;">Прочее</div>`);
 
-    element.insertAdjacentElement("beforeend", NeatoLib.Settings.Elements.createToggleSwitch("Display changes for every update", plugin.settings.displayUpdateNotes, () => {
+    element.insertAdjacentElement("beforeend", NeatoLib.Settings.Elements.createToggleSwitch("Отображать изменения для каждого обновления", plugin.settings.displayUpdateNotes, () => {
         plugin.settings.displayUpdateNotes = !plugin.settings.displayUpdateNotes;
         plugin.saveSettings();
     }));
@@ -633,12 +633,12 @@ NeatoLib.Settings.pushChangelogElements = function(plugin) {
 
     right.style.paddingTop = "20px";
 
-    right.insertAdjacentElement("beforeend", NeatoLib.Settings.Elements.createButton("View Changelog", () => {
+    right.insertAdjacentElement("beforeend", NeatoLib.Settings.Elements.createButton("Посмотреть логи", () => {
         NeatoLib.Changelog.createChangeWindow(plugin.getName(), [], plugin.getChanges());
     }));
 
-    right.insertAdjacentElement("afterbegin", NeatoLib.Settings.Elements.createButton("Join Support Server", () => {
-        window.open("https://discord.gg/yNqzuJa");
+    right.insertAdjacentElement("afterbegin", NeatoLib.Settings.Elements.createButton("Войти на мой канал", () => {
+        window.open("https://discord.gg/XFHTFN7");
     }, "float:left"));
 
     element.insertAdjacentElement("beforeend", right);
