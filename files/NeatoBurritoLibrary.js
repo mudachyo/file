@@ -180,7 +180,7 @@ NeatoLib.Changelog.createChangeWindow = function(name, changes, allChanges, newU
         <div class="kotanoff-changelog-backdrop"></div>
             <div class="kotanoff-changelog-scroller">
                 <div class="kotanoff-changelog-label">
-                    <h2>${name} Update Notes</h2>
+                    <h2>${name} Обновления</h2>
                     <br>
                 </div>
                 <div id="${spacelessName}-changelog-scroller"></div>
